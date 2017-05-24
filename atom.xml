@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.youqian-tech.com/"/>
-  <updated>2017-05-23T16:36:18.000Z</updated>
+  <updated>2017-05-24T02:58:02.000Z</updated>
   <id>http://www.youqian-tech.com/</id>
   
   <author>
@@ -16,22 +16,24 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://www.youqian-tech.com/2017/05/24/hello-world/"/>
-    <id>http://www.youqian-tech.com/2017/05/24/hello-world/</id>
-    <published>2017-05-23T16:27:02.000Z</published>
-    <updated>2017-05-23T16:36:18.000Z</updated>
+    <title>基于Arduino实现Arduino控制的电灯</title>
+    <link href="http://www.youqian-tech.com/2012/05/01/arduino-light-old/"/>
+    <id>http://www.youqian-tech.com/2012/05/01/arduino-light-old/</id>
+    <published>2012-04-30T20:18:00.000Z</published>
+    <updated>2017-05-24T02:58:02.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;
+      &lt;p&gt;主要介绍使用Arduino做出一个可以通过Android手机控制开关的电灯。试想，当你晚上睡在床上，打开手机，关闭书房或者走廊的电灯，是不是一件很cool的事情。&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
-      <category term="hello" scheme="http://www.youqian-tech.com/categories/hello/"/>
+      <category term="智能硬件" scheme="http://www.youqian-tech.com/categories/%E6%99%BA%E8%83%BD%E7%A1%AC%E4%BB%B6/"/>
     
     
-      <category term="hello Word" scheme="http://www.youqian-tech.com/tags/hello-Word/"/>
+      <category term="Arduino" scheme="http://www.youqian-tech.com/tags/Arduino/"/>
+    
+      <category term="智能家居" scheme="http://www.youqian-tech.com/tags/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
     
   </entry>
   
