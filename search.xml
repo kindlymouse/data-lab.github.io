@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[有谦的自白]]></title>
-    <url>%2F2017%2F05%2F24%2F%E6%9C%89%E8%B0%A6%E7%9A%84%E8%87%AA%E7%99%BD%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>心情</category>
-      </categories>
-      <tags>
-        <tag>创业</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2017%2F05%2F24%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post\begin{equation} E = mc^2\end{equation} $$J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \Gamma (m + \alpha + 1)} {\left({ \frac{x}{2} }\right)}^{2m + \alpha}$$ ``` bash$ hexo new “My New Post”``` More info: Writing Run server``` bash$ hexo server``` More info: Server Generate static files``` bash$ hexo generate``` More info: Generating Deploy to remote sites``` bash$ hexo deploy``` More info: Deployment]]></content>
