@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.youqian-tech.com/"/>
-  <updated>2017-06-07T03:33:07.000Z</updated>
+  <updated>2017-06-07T03:34:56.000Z</updated>
   <id>http://www.youqian-tech.com/</id>
   
   <author>
@@ -20,11 +20,11 @@
     <link href="http://www.youqian-tech.com/2017/06/07/coordinate-system/"/>
     <id>http://www.youqian-tech.com/2017/06/07/coordinate-system/</id>
     <published>2017-06-07T03:02:29.000Z</published>
-    <updated>2017-06-07T03:33:07.000Z</updated>
+    <updated>2017-06-07T03:34:56.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;在做一个涉及GIS应用的项目，由于不能使用第三方引擎，故而只能自己实现对sharpfile的解析与渲染。借此机会，正好系统性的梳理了一下关于坐标系的一些基础概念，收集与整理了网络上的各类资料，以备后用。&lt;br&gt;&lt;/p&gt;
+      &lt;p&gt;在做一个涉及GIS应用的项目，由于不能使用第三方引擎，故而只能自己实现对sharpfile的解析与渲染。借此机会，正好系统性的梳理了一下关于坐标系的一些基础概念，收集与整理了网络上的各类资料，包括WGS84、北京54、西安80、高斯-克吕格投影、UTM投影以及一些源代码、工具等等，以备后用。&lt;br&gt;&lt;/p&gt;
     
     </summary>
     

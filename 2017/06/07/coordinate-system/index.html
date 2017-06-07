@@ -92,19 +92,19 @@
 
 
 
-<meta name="description" content="在做一个涉及GIS应用的项目，由于不能使用第三方引擎，故而只能自己实现对sharpfile的解析与渲染。借此机会，正好系统性的梳理了一下关于坐标系的一些基础概念，收集与整理了网络上的各类资料，以备后用。">
+<meta name="description" content="在做一个涉及GIS应用的项目，由于不能使用第三方引擎，故而只能自己实现对sharpfile的解析与渲染。借此机会，正好系统性的梳理了一下关于坐标系的一些基础概念，收集与整理了网络上的各类资料，包括WGS84、北京54、西安80、高斯-克吕格投影、UTM投影以及一些源代码、工具等等，以备后用。">
 <meta name="keywords" content="WGS84,北京54,西安80,高斯-克吕格投影,UTM,墨卡托投影,时区">
 <meta property="og:type" content="article">
 <meta property="og:title" content="关于坐标系的那些事儿">
 <meta property="og:url" content="http://www.youqian-tech.com/2017/06/07/coordinate-system/index.html">
 <meta property="og:site_name" content="数秀于云">
-<meta property="og:description" content="在做一个涉及GIS应用的项目，由于不能使用第三方引擎，故而只能自己实现对sharpfile的解析与渲染。借此机会，正好系统性的梳理了一下关于坐标系的一些基础概念，收集与整理了网络上的各类资料，以备后用。">
+<meta property="og:description" content="在做一个涉及GIS应用的项目，由于不能使用第三方引擎，故而只能自己实现对sharpfile的解析与渲染。借此机会，正好系统性的梳理了一下关于坐标系的一些基础概念，收集与整理了网络上的各类资料，包括WGS84、北京54、西安80、高斯-克吕格投影、UTM投影以及一些源代码、工具等等，以备后用。">
 <meta property="og:image" content="http://www.youqian-tech.com/2017/06/07/coordinate-system/14967696673669.jpg">
 <meta property="og:image" content="http://www.youqian-tech.com/2017/06/07/coordinate-system/14967701902324.gif">
-<meta property="og:updated_time" content="2017-06-07T03:33:07.000Z">
+<meta property="og:updated_time" content="2017-06-07T03:34:56.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于坐标系的那些事儿">
-<meta name="twitter:description" content="在做一个涉及GIS应用的项目，由于不能使用第三方引擎，故而只能自己实现对sharpfile的解析与渲染。借此机会，正好系统性的梳理了一下关于坐标系的一些基础概念，收集与整理了网络上的各类资料，以备后用。">
+<meta name="twitter:description" content="在做一个涉及GIS应用的项目，由于不能使用第三方引擎，故而只能自己实现对sharpfile的解析与渲染。借此机会，正好系统性的梳理了一下关于坐标系的一些基础概念，收集与整理了网络上的各类资料，包括WGS84、北京54、西安80、高斯-克吕格投影、UTM投影以及一些源代码、工具等等，以备后用。">
 <meta name="twitter:image" content="http://www.youqian-tech.com/2017/06/07/coordinate-system/14967696673669.jpg">
 
 
@@ -414,7 +414,7 @@
       
 
       
-        <p>在做一个涉及GIS应用的项目，由于不能使用第三方引擎，故而只能自己实现对sharpfile的解析与渲染。借此机会，正好系统性的梳理了一下关于坐标系的一些基础概念，收集与整理了网络上的各类资料，以备后用。<br><a id="more"></a></p>
+        <p>在做一个涉及GIS应用的项目，由于不能使用第三方引擎，故而只能自己实现对sharpfile的解析与渲染。借此机会，正好系统性的梳理了一下关于坐标系的一些基础概念，收集与整理了网络上的各类资料，包括WGS84、北京54、西安80、高斯-克吕格投影、UTM投影以及一些源代码、工具等等，以备后用。<br><a id="more"></a></p>
 <h3 id="大地坐标系"><a href="#大地坐标系" class="headerlink" title="大地坐标系"></a>大地坐标系</h3><p>大地坐标系是一种固定在地球上，随地球一起转动的非惯性坐标系。大地坐标系根据其原点的位置不同，分为地心坐标系和参心坐标系。<strong>地心坐标系</strong>的原点与地球质心重合，<strong>参心坐标系</strong>的原点与某一地区或国家所采用的参考椭球中心重合，通常与地球质心不重合。我国先后建立的1954年北京坐标系、1980西安坐标系和新1954年北京坐标系，都是参心坐标系。</p>
 <p>大地坐标系是大地测量中以参考椭球面为基准面建立起来的坐标系。地面任意点的位置用大地经度、大地纬度和大地高度表示。大地坐标系是曲面上的坐标系，因此要以一定的投影方式将其投影为平面xy坐标系，再建立一个高程系统就可以以平面形式表示任意点位置及高程。</p>
 <h4 id="WGS84"><a href="#WGS84" class="headerlink" title="WGS84"></a>WGS84</h4><p>WGS-84坐标系的几何意义是：坐标系的原点位于地球质心，z轴指向（国际时间局）BIH1984.0定义的协议地球极(CTP)方向，x轴指向BIH1984.0的零度子午面和CTP赤道的交点，y轴通过右手规则确定。</p>
