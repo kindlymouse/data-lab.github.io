@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.youqian-tech.com/"/>
-  <updated>2017-05-25T14:10:51.000Z</updated>
+  <updated>2017-06-07T03:16:38.000Z</updated>
   <id>http://www.youqian-tech.com/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于坐标系的那些事儿</title>
+    <link href="http://www.youqian-tech.com/2017/06/07/coordinate-system/"/>
+    <id>http://www.youqian-tech.com/2017/06/07/coordinate-system/</id>
+    <published>2017-06-07T03:02:29.000Z</published>
+    <updated>2017-06-07T03:16:38.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;大地坐标系&quot;&gt;&lt;a href=&quot;#大地坐标系&quot; class=&quot;headerlink&quot; title=&quot;大地坐标系&quot;&gt;&lt;/a&gt;大地坐标系&lt;/h3&gt;&lt;p&gt;大地坐标系是一种固定在地球上，随地球一起转动的非惯性坐标系。大地坐标系根据其原点的位置不同，分为地心坐标系和参心坐标系。&lt;strong&gt;地心坐标系&lt;/strong&gt;的原点与地球质心重合，&lt;strong&gt;参心坐标系&lt;/strong&gt;的原点与某一地区或国家所采用的参考椭球中心重合，通常与地球质心不重合。我国先后建立的1954年北京坐标系、1980西安坐标系和新1954年北京坐标系，都是参心坐标系。&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="基础技术" scheme="http://www.youqian-tech.com/categories/%E5%9F%BA%E7%A1%80%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="WGS84" scheme="http://www.youqian-tech.com/tags/WGS84/"/>
+    
+      <category term="北京54" scheme="http://www.youqian-tech.com/tags/%E5%8C%97%E4%BA%AC54/"/>
+    
+      <category term="西安80" scheme="http://www.youqian-tech.com/tags/%E8%A5%BF%E5%AE%8980/"/>
+    
+      <category term="高斯-克吕格投影" scheme="http://www.youqian-tech.com/tags/%E9%AB%98%E6%96%AF-%E5%85%8B%E5%90%95%E6%A0%BC%E6%8A%95%E5%BD%B1/"/>
+    
+      <category term="UTM" scheme="http://www.youqian-tech.com/tags/UTM/"/>
+    
+      <category term="墨卡托投影" scheme="http://www.youqian-tech.com/tags/%E5%A2%A8%E5%8D%A1%E6%89%98%E6%8A%95%E5%BD%B1/"/>
+    
+      <category term="时区" scheme="http://www.youqian-tech.com/tags/%E6%97%B6%E5%8C%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>基于Arduino实现Android控制的电灯</title>
